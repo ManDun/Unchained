@@ -62,8 +62,7 @@ target/
 # pyenv
 .python-version
 
-# celery beat schedule file
-celerybeat-schedule
+
 
 # Environments
 .venv
@@ -266,6 +265,18 @@ Session.vim
 tags
 
 
+### VirtualEnv template
+# Virtualenv
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+.env
+
+
 ### Project template
 
 dj_cookie_cutter/media/
@@ -273,7 +284,3 @@ dj_cookie_cutter/media/
 .pytest_cache/
 
 
-.ipython/
-.env
-.envs/*
-!.envs/.local/
